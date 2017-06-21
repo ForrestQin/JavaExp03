@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.aspectj.org.eclipse.jdt.internal.compiler.batch.Main"/>
+<fullyQualifiedTypeName name="cn.edu.scut.test.newtest"/>
+<fullyQualifiedTypeName name="cn.edu.scut.dao.impl.BookDaoImpl"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.fkit.domain.User"/>
+</qualifiedTypeNameHistroy>

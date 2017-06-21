@@ -1,0 +1,39 @@
+package org.fkit.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.fkit.domain.*;
+import org.hibernate.Session;
+import org.mybatis.spring.support.SqlSessionDaoSupport;  
+import org.springframework.beans.factory.BeanFactory;  
+import org.springframework.context.support.ClassPathXmlApplicationContext; 
+import org.apache.ibatis.session.SqlSession;
+/**
+ * Description:
+ * <br/>��վ: <a href="http://www.crazyit.org">���Java����</a>
+ * <br/>Copyright (C), 2001-2016, Yeeku.H.Lee
+ * <br/>This program is protected by copyright laws.
+ * <br/>Program Name:
+ * <br/>Date:
+ * @author  Yeeku.H.Lee kongyeeku@163.com
+ * @version  1.0
+ */
+public class Test  extends SqlSessionDaoSupport
+{
+	 public static void main(String[] args) {  
+		  // TODO Auto-generated method stub  
+		  new Test().firstTest();  
+		 }  
+		 public void firstTest() {  
+		  BeanFactory factory = new ClassPathXmlApplicationContext("beans.xml");  
+		  Test test = (Test)factory.getBean("userTest");  
+//		  User us = (User)test.getSqlSession().selectOne("selectUser",1);  
+//		  System.out.println(us);  
+//		  SqlSession session = test.getSqlSession();
+//		  System.out.println("正在插入数据");
+//		  User user = new User("覃福东","201562651482","电子商务2班");
+//		  session.insert("org.fkit.mapper.UserMapper.saveUser",user);
+		  test.getSqlSession().insert("org.fkit.mapper.UserMapper.saveUser",
+				  new User("覃福东","201562651482","电子商务2班"));
+		 }  
+}

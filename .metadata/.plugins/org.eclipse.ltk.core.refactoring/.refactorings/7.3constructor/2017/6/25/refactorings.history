@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from project &apos;7.3constructor&apos;&#x0D;&#x0A;- Original project: &apos;7.3constructor&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     7.5requestScope&#x0D;&#x0A;     7.9lifecycle-destroy&#x0D;&#x0A;     7.9lifecycle-init&#x0D;&#x0A;     8.1BeanPostProcessor&#x0D;&#x0A;     8.4AfterReturning&#x0D;&#x0A;     8.4Before&#x0D;&#x0A;     8.4ReusePointcut" description="Delete elements" element1="8.4Before" element2="8.4AfterReturning" element3="7.9lifecycle-init" element4="8.4ReusePointcut" element5="7.5requestScope" element6="8.1BeanPostProcessor" element7="7.9lifecycle-destroy" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="7" stamp="1498038849167" subPackages="false" version="1.0"/>
+</session>

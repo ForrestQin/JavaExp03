@@ -1,0 +1,17 @@
+package cn.edu.scut.test;
+
+import javax.sql.DataSource;
+
+import cn.edu.scut.dao.impl.BookDaoImpl;
+import cn.edu.scut.model.Book;
+
+public class newtest {
+	public static void main(String[] args) {
+		
+        DataSource dataSource=(DataSource) context.getBean(DataSource.class);
+        
+		Book b = new Book(2, "android源码分析", "1002", 45, 10);
+		BookDaoImpl bb = new BookDaoImpl();
+		bb.saveBook(b);
+	}
+}

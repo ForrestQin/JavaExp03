@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Woody\Desktop\spring例程\7.5DataSource"/>
+			<item value="C:\Users\Woody\Desktop\spring_mybatis"/>
+			<item value="C:\Users\Woody\Desktop\spring_hibernate_tx"/>
+			<item value="C:\Users\Woody\Desktop\spring例程"/>
+			<item value="C:\Users\Woody\Desktop\spring例程\7.3setter"/>
+			<item value="C:\Users\Woody\Desktop\spring例程\7.3constructor"/>
+			<item value="C:\Users\Woody\Desktop\mybatis例程\a10.OneToManyTest"/>
+			<item value="C:\Users\Woody\Desktop\testAllLifeCycle"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

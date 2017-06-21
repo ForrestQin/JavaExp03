@@ -1,0 +1,31 @@
+package cn.edu.scut.test;
+
+import javax.sql.DataSource;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.edu.scut.model.Book;
+import cn.edu.scut.service.BookService;
+
+public class tets
+{
+//    private ApplicationContext context=null;
+//    private BookService bookService=null;
+
+//    @Test
+//    public void test2()
+//    {
+//        String bookName=bookService.findBookById(1);
+//        System.out.println(bookName);
+//    }
+    
+    @Test
+    public void test3()
+    {
+    	ApplicationContext context= new ClassPathXmlApplicationContext("applicationContext.xml");  
+    	BookService bookService=context.getBean(BookService.class);
+        bookService.saveBook(new Book("android源码分析", "1002", 45, 10,1));
+    }
+}
